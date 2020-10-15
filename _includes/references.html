@@ -1,0 +1,30 @@
+{% assign references = site.data.data.references %}
+{% if references %}
+<section class="section references-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ references.title }}
+  </h2>
+
+  {% for reference in references.references %}
+  <div class="item">
+    <div><b>{{ reference.fullname }}</b></div>
+    <div>{{ reference.role }} - {{ reference.company }}</div>
+
+    {% if reference.email %}
+    <div>Email: <a href="mailto:{{ reference.email }}">{{ reference.email }}</a></div>
+    {% endif %}
+
+    {% if reference.phone %}
+    <div>Phone: <a href="tel:{{ reference.phone }}">{{ reference.phone }}</a></div>
+    {% endif %}
+    <br/>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
