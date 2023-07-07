@@ -7,5 +7,11 @@
     "website": "https://briannqc.com",
     "linkedIn": "https://linkedin.com/in/quoccuongngo",
     "location": "Singapore"
-  }
+  },
+  "summary": [
+    "A Tech Lead and Technical Project Manager who played a crucial role in designing, leading the development, and delivering the Data Loading services from scratch, contributing to the successful launch of ByteHouse, a Cloud Data Warehouse.",
+    "A TDD, BDD and DDD practitioner who writes highly maintainable and well-tested code. He has hands-on experience across diverse domains.",
+    "An effective communicator, adept at articulating technical complexities to cross-functional stakeholders.",
+    "A tech blogger who is actively spreading a culture of engineering excellence. His posts cover various topics including REST API, Clean Code, Concurrency and Microservices (15,000+ monthly impressions on LinkedIn)."
+  ]
 }
